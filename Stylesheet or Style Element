@@ -1,0 +1,23 @@
+Stylesheet or style element — not both!
+Note that you can put your CSS code inside of a <style></style> element, like this ...
+
+<style>
+  p{color:blue;}
+</style>
+... or inside of a linked stylesheet, like we just talked about.
+
+But you would not want to do both at the same time! In other words, when you place your CSS in a stylesheet, you don't need to use a style element—you can just put the CSS directly into the stylesheet with nothing around it:
+
+p{color:blue;}
+This is what you should do for the exercise below—simply put the CSS directly into your style.css file (and don't use the style element).
+
+Linking stylesheets
+To link to a stylesheet in your HTML file, add a link element to the head of the HTML file. The syntax for the link element is just like this:
+
+<link rel="stylesheet" href="style.css">
+If you are linking to a stylesheet located on another web server, you will use a full URL in the href attribute. If you're linking to one that's in the same directory as your HTML file, you can just use the filename as a relative URL.
+
+Creating a CSS file
+You might think that creating a CSS file requires something special, but all you have to do is make a new text file (just plain old text!) and rename it with the extension .css. This is similar to how we create our HTML files—they are simply text files that have a .html file extension in the name.
+
+For example, in the workspace below, you can hover over the plus button and select New File—and then simply name the file styles.css.
