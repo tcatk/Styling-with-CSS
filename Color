@@ -1,0 +1,26 @@
+
+color_practice_style.css (title):
+
+body{
+  background-color: rgb(45, 90, 135);
+}
+
+h1{
+  color: rgb(255, 200, 200);
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Color practice!</title>
+    <link rel="stylesheet" href="color_practice_style.css">
+  </head>
+  <body>
+    <h1>Color me with RGB!</h1>
+  </body>
+</html>
